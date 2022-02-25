@@ -1,5 +1,5 @@
-main: main.lua
-title: planeShooter
+main: ./main.lua
+title: Juego de naves
 description: Basic shooter game
 owner: tchernobog
 dimensions: 600x600
