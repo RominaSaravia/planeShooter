@@ -13,4 +13,4 @@ https://love2d.org/
   https://github.com/rxi/classic
 
 __Playing it__
-You need Lua and Love2D
+You need Lua and Love2D use de __planeShooter.love__ file
