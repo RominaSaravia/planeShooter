@@ -1,0 +1,4 @@
+--- To do ----
+Score:
+Show Score
+When enemy sum Score
