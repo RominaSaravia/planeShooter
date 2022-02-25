@@ -1,4 +1,6 @@
 main: main.lua
 title: planeShooter
+description: Basic shooter game
 owner: tchernobog
+dimensions: 600x600
 
