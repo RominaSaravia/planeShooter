@@ -2,3 +2,5 @@
 Score:
 Show Score
 When enemy sum Score
+
+Use castle.games
