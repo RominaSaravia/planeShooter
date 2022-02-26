@@ -1,5 +1,6 @@
 # planeShooter
 
+
 ## Learning Lua with Love2D
 
 __What I been using__
@@ -12,5 +13,21 @@ https://love2d.org/
   - classic : It has the very basics needed to simulate a class
   https://github.com/rxi/classic
 
-__Playing it__
-You need Lua and Love2D use de __planeShooter.love__ file
+
+## __How to run__ (Lua and love2D needed)
+```
+cd game
+run love .
+```
+
+__Mechanics__
+```
+Movement: arrow keys |< |  | >|
+
+Shooting: | SPACE | 
+```
+
+
+## SCREENS
+
+![alt game](https://github.com/RominaSaravia/planeShooter/blob/screen.png)
