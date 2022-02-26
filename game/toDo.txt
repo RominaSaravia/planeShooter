@@ -1,6 +1,7 @@
 --- To do ----
+
 Score:
-Show Score
-When enemy sum Score
+Show Score - DONE
+When enemy sum Score DONE
 
 Use castle.games

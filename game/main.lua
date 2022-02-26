@@ -11,9 +11,12 @@ function love.load()
   require "player"
   require "enemy"
   require "bullet"
+  require "score"
   
   player = Player()
   enemy = Enemy()
+  score = Score()
+
   listOfBullets = {}
 
   
@@ -27,7 +30,7 @@ function love.update(dt)
 
   for i,v in ipairs(listOfBullets) do
       v:update(dt)
-      v:checkCollision(enemy)
+      v:checkCollision(enemy,score)
 
       --If the bullet has the property dead and it's true then..
       if v.dead then
@@ -43,6 +46,8 @@ end
 function love.draw()
   love.graphics.setBackgroundColor(20/255,20/255,80/255)
   love.graphics.print("Shoot de opponent using <SPACE>\nMove with arrows\nIf you miss, the game will restart")
+  score:draw()
+
   player:draw()
   enemy:draw()
 
