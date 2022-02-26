@@ -30,4 +30,4 @@ Shooting: | SPACE |
 
 ## SCREENS
 
-![alt game](https://github.com/RominaSaravia/planeShooter/blob/screen.png)
+![alt game](https://github.com/RominaSaravia/planeShooter/blob/main/screen.png)
